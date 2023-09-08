@@ -4,7 +4,8 @@
   "description": "Kuzanatoliorg's commitlint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/kuzanatoliy/commitlint-config/issues"
   },
-  "homepage": "https://github.com/kuzanatoliy/commitlint-config#readme"
+  "homepage": "https://github.com/kuzanatoliy/commitlint-config#readme",
+  "devDependencies": {
+    "@kuzanatoliorg/prettier-config": "^1.7.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3"
+  }
 }
